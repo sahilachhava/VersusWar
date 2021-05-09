@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name=”robots” content="index, follow">
+<meta property="og:type" content="article" />
+<meta property="og:image" content="assets/img/logo.png" />
+<meta property="og:site_name" content="Versus War" />
+<title>Versus War - Sign in - Sign up</title>
+<meta property="og:title" content="Versus War - Sign in - Sign up" />
+<meta name="description" content="Sign in or Sign up to VersusWar with Email, Google Account, Facebook Account, or Apple Account. You can also cast your vote as a guest to decide winners.">
+<meta property="og:description" content="Sign in or Sign up to VersusWar with Email, Google Account, Facebook Account, or Apple Account. You can also cast your vote as a guest to decide winners." />
+<meta name="keywords" content="rivalry, rivalries, versus, versus war, war, wars, vs, vs wars, vs war, comparision fights, debate, social media, comparision, poll, poll wars, poll war, opinion, your opinion, most liked, like, comments, comment, share to whatsapp, share to facebook, share to twitter, trending wars, trending, popular">
+<link rel="canonical" href="https://www.versuswar.com/login.html" />
+<meta property="og:url" content="https://www.versuswar.com/login.html" />
+
+<link rel="icon" type="image/png" href="assets/img/logo.png" />
+<!-- Fonts -->
+<link href="fonts.googleapis.com/cssf7e8.css?family=Montserrat:300,600,700,800,900" rel="stylesheet">
+<link href="fonts.googleapis.com/css0981.css?family=Roboto:400,500" rel="stylesheet">
+<!-- Core CSS -->
+<link rel="stylesheet" href="assets/css/bulma.css">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/css/core.css">
+</head>
+
+<body class="is-white">
+
+<!-- Pageloader -->
+<div class="pageloader"></div>
+<div class="infraloader is-active"></div>
+<div class="login-wrapper">
+
+<!-- Main Wrapper -->
+<div class="login-wrapper columns is-gapless">
+<!--Left Side (Desktop Only)-->
+<div class="column is-6 is-hidden-mobile hero-banner">
+<div class="hero is-fullheight is-login">
+<div class="hero-body">
+<div class="container">
+<div class="left-caption">
+<h2>Join an Exciting War Experience.</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--Right Side-->
+<div class="column is-6">
+<div class="hero form-hero is-fullheight">
+<!--Logo-->
+<div class="logo-wrap" style="-webkit-transform:rotate(0deg);transform:rotate(0deg);">
+<div class="wrap-inner">
+<img style="max-width:90%" src="assets/img/logo.png" alt="logo">
+</div>
+</div>
+<!--Login Form-->
+<div class="hero-body">
+<div class="form-wrapper">
+<!--Avatar-->
+<div class="avatar">
+<!-- <div class="badge">
+    <i data-feather="check"></i>
+</div> -->
+<img src="assets/img/logo.png" alt="">
+</div>
+<!--Form-->
+<form onsubmit="logIn();return false;">
+<div class="login-form">
+<div class="field">
+    <div class="control">
+        <input class="input email-input" type="text" id="email" placeholder="example@gmail.com" required="">
+        <div class="input-icon">
+            <i data-feather="user"></i>
+        </div>
+    </div>
+</div>
+<div class="field">
+    <div class="control">
+        <input class="input password-input" type="password" id="password" placeholder="●●●●●●●" required="">
+        <div class="input-icon">
+            <i data-feather="lock"></i>
+        </div>
+    </div>
+</div>
+<div class="field">
+    <div class="control">
+        <button type="submit" class="button is-solid raised is-rounded is-fullwidth" style="background-color: #3673f6;color: white;">Login</button>
+    </div>
+</div>
+</div>
+</form>
+<div class="section forgot-password">
+<div class="has-text-centered">
+    <a href="javascript:;" class="explore-item modal-trigger" data-modal="add-conversation-modal">Forgot password?</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="javascript:;" class="explore-item modal-trigger" data-modal="add-conversation-modal1">Create new account!</a>
+</div>
+</div>
+<br><br>
+<center>
+<!-- Google Button -->
+<button onclick="continueWithGoogle();return false;" class="button is-solid raised is-rounded is-fullwidth" style="height:50px;width:230px;font-size: 14px;margin-bottom: 15px;"><img src="assets/img/logo/google.png" style="margin-right: 10px;height:30px;" />Continue with Google</button>
+
+<!-- FB Button -->
+<button onclick="continueWithFacebook();return false;" class="button is-solid raised is-rounded is-fullwidth" style="height:50px;width:230px;font-size: 14px;margin-bottom: 15px;"><img src="assets/img/logo/facebook.png" style="margin-right: 10px;height:30px;" />Continue with Facebook</button>
+
+<!-- Email Button
+<button class="button is-solid raised is-rounded is-fullwidth" style="height:50px;width:230px;font-size: 14px;margin-bottom: 15px;"><img src="assets/img/logo/email.png" style="margin-right: 20px;height:30px;" />Signup with Email</button> -->
+
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Forgot Password Modal -->
+<div id="add-conversation-modal" class="modal add-conversation-modal is-xsmall has-light-bg">
+<div class="modal-background"></div>
+<div class="modal-content">
+<div class="card">
+<div class="card-heading">
+<h3>Forgot Password</h3>
+<!-- Close X button -->
+<div class="close-wrap">
+<span class="close-modal">
+<i data-feather="x"></i>
+</span>
+</div>
+</div>
+<div class="card-body">
+<img src="assets/img/illustrations/signup/mailbox.svg" alt="">
+<br>
+<form onsubmit="forgotPassword(); return false;">
+<div class="field is-autocomplete">
+<div class="control has-icon">
+<input id="resetEmail" type="email" id="forgotEmail" class="input simple-users-autocpl" placeholder="Enter registered email ID" required="">
+<div class="form-icon">
+<i data-feather="user"></i>
+</div>
+</div>
+</div>
+<div class="help-text">
+</div>
+<div class="action has-text-centered">
+<button type="submit" class="button is-solid accent-button raised">Reset Password</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div> 
+<!-- Forgot Password Modal Ends-->
+
+<!-- Sign Up Modal -->
+<div id="add-conversation-modal1" class="modal add-conversation-modal is-xsmall has-light-bg">
+<div class="modal-background"></div>
+<div class="modal-content">
+<div class="card">
+<div class="card-heading">
+<h3>Create new account</h3>
+<!-- Close X button -->
+<div class="close-wrap">
+<span class="close-modal">
+<i data-feather="x"></i>
+</span>
+</div>
+</div>
+<div class="card-body">
+<img src="assets/img/illustrations/profile/add-profile.svg" alt="">
+<br>
+<form onsubmit="signUp();return false;">
+<div class="field is-autocomplete">
+<div class="control has-icon">
+<input type="text" id="fName" class="input simple-users-autocpl" placeholder="Enter First Name" required="">
+<div class="form-icon">
+<i data-feather="user"></i>
+</div>
+</div>
+</div>
+<div class="field is-autocomplete">
+<div class="control has-icon">
+<input type="text" id="lName" class="input simple-users-autocpl" placeholder="Enter Last Name" required="">
+<div class="form-icon">
+<i data-feather="user"></i>
+</div>
+</div>
+</div>
+<div class="field is-autocomplete">
+<div class="control has-icon">
+<input type="email" id="uEmail" class="input simple-users-autocpl" placeholder="Enter valid email" required="">
+<div class="form-icon">
+<i data-feather="mail"></i>
+</div>
+</div>
+</div>
+<div class="field is-autocomplete">
+<div class="control has-icon">
+<input type="password" id="uPass" class="input simple-users-autocpl" placeholder="Enter new password" required="">
+<div class="form-icon">
+<i data-feather="key"></i>
+</div>
+</div>
+</div>
+<div class="help-text">
+</div>
+<div class="action has-text-centered">
+<button type="submit" class="button is-solid accent-button raised">Sign up now</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div> 
+<!-- Sign Up Modal Ends-->
+
+<!-- Concatenated js plugins and jQuery -->
+<script src="assets/js/app.js"></script>
+<!-- Core js -->
+<script src="assets/data/tipuedrop_content.js"></script>
+<script src="assets/js/global.js"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- Page and UI related js -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src="assets/js/feed.js"></script>
+<script src="assets/js/stories.js"></script>
+<script src="assets/js/chat.js"></script>
+<script src="assets/js/inbox.js"></script>
+<script src="assets/js/profile.js"></script>
+<script src="assets/js/friends.js"></script>
+<script src="assets/js/events.js"></script>
+<script src="assets/js/elements.js"></script>
+<script src="assets/js/explorer.js"></script>
+<script src="assets/js/news.js"></script>
+<script src="assets/js/questions.js"></script>
+<script src="assets/js/videos.js"></script>
+<script src="assets/js/shop.js"></script>
+<script src="assets/js/settings.js"></script>
+
+<!-- Components js -->
+<script src="assets/js/widgets.js"></script>
+<script src="assets/js/autocompletes.js"></script>
+<script src="assets/js/modal-uploader.js"></script>
+<script src="assets/js/popovers-users.js"></script>
+<script src="assets/js/popovers-pages.js"></script>
+<script src="assets/js/go-live.js"></script>
+<script src="assets/js/lightbox.js"></script>
+<script src="assets/js/touch.js"></script>
+<script src="assets/js/tour.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-storage.js"></script>
+<script src="assets/firebase.js"></script>
+</body>
+<script type="text/javascript">
+    var status = sessionStorage.getItem("loginStatus");
+    if(status=='1'){
+        window.location.href = "index.html";
+    }
+
+    function continueWithFacebook(){
+        var provider = new firebase.auth.FacebookAuthProvider();
+
+        auth.signInWithPopup(provider).then(function(result) {
+            var user = result.user;
+            var token = result.credential.accessToken;
+            console.log(token);
+            showSuccess('Welcome '+user.displayName,'Login successful!');
+            sessionStorage.setItem('userUID',user.uid);
+            sessionStorage.setItem('userNAME',user.displayName);
+            sessionStorage.setItem('loginStatus','1');
+            window.location.href = "index.html";
+        }).catch(function(error){
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            showSuccess(errorMessage,errorCode);
+        });
+    }
+
+    function continueWithGoogle(){
+        var provider = new firebase.auth.GoogleAuthProvider();
+
+        auth.signInWithPopup(provider).then(function(result) {
+            var user = result.user;
+            var token = result.credential.accessToken;
+            console.log(token);
+            showSuccess('Welcome '+user.displayName,'Login successful!');
+            sessionStorage.setItem('userUID',user.uid);
+            sessionStorage.setItem('userNAME',user.displayName);
+            sessionStorage.setItem('loginStatus','1');
+            window.location.href = "index.html";
+        }).catch(function(error){
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            showSuccess(errorMessage,errorCode);
+        });
+    }
+
+    function forgotPassword() {
+        var uEmail = document.getElementById('resetEmail').value;
+        
+        auth.sendPasswordResetEmail(uEmail).then(function() {
+          showSuccess('Reset email is sent to your registered email','Password Reset!');
+          $('#add-conversation-modal').hide();
+        }).catch(function(error) {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            showSuccess(errorMessage,errorCode);
+        });
+    }
+
+    function logIn(){
+        var uEmail = document.getElementById('email').value;
+        var uPass = document.getElementById('password').value;
+
+        auth.signInWithEmailAndPassword(uEmail,uPass).then(function(){
+            var user = auth.currentUser;
+            if(user.emailVerified){
+                showSuccess('Welcome '+user.displayName,'Login successful!');
+                sessionStorage.setItem('userUID',user.uid);
+                sessionStorage.setItem('userNAME',user.displayName);
+                sessionStorage.setItem('loginStatus','1');
+                window.location.href = "index.html";
+            }else{
+                user.sendEmailVerification().then(function() {
+                    showSuccess('Please verify your email','Email Verification sent again');
+                    $('#email').val('');
+                    $('#password').val('');
+                }).catch(function(error){
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+                    $('#email').val('');
+                    $('#password').val('');
+                    showSuccess(errorMessage,errorCode);
+                });
+            }
+        }).catch(function(error){
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            showSuccess(errorMessage,errorCode);
+        });
+
+    }
+
+    function signUp(){
+        var fName = document.getElementById('fName').value;
+        var lName = document.getElementById('lName').value;
+        var uEmail = document.getElementById('uEmail').value;
+        var uPass = document.getElementById('uPass').value;
+
+        auth.createUserWithEmailAndPassword(uEmail, uPass).then(function(){
+            var user = auth.currentUser;
+            showSuccess('Please verify your email','Email Verification sent');
+            user.updateProfile({
+              displayName: fName+" "+lName,
+            }).then(function(){
+                user.sendEmailVerification().then(function() {
+                    sessionStorage.setItem('userUID',user.uid);
+                    sessionStorage.setItem('userNAME',fName+" "+lName);
+                    sessionStorage.setItem('loginStatus','1');
+                    window.location.href = "index.html";
+                });
+            });
+            $('#add-conversation-modal1').hide();
+        }).catch(function(error){
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            showSuccess(errorMessage,errorCode);
+        });
+    }
+
+    function showSuccess(msg,title){
+        iziToast.show({
+            maxWidth: '280px',
+            class: 'success-toast',
+            icon: 'mdi mdi-checkbox-multiple-marked-circle-outline',
+            title: title,
+            message: msg,
+            titleColor: '#fff',
+            messageColor: '#fff',
+            iconColor: "#fff",
+            backgroundColor: '#2c3e50',
+            progressBarColor: 'powderblue',
+            position: 'bottomRight',
+            transitionIn: 'fadeInUp',
+            close: false,
+            timeout: 2500,
+            zindex: 99999
+         });
+    }
+</script>
+</html>
