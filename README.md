@@ -24,3 +24,5 @@ _War_<br />
 _Poll war_<br />
 
 ![Homepage](https://github.com/sahilachhava/VersusWar/blob/main/screenshots/poll.png)<br />
+
+_**Note** For security reasons the google services for firebase is removed from project files_
