@@ -5,8 +5,6 @@ as Freelancing project <br /><br />
 
 *This website is created as freelancer, it's a competitive website which is based on user likes and comments to a particular duel*<br />
 
-_**Webiste URL:** https://versuswar.com_
-
 **Screenshots**
 
 _Homepage_<br />
